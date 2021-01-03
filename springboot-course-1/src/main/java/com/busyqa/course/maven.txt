@@ -1,0 +1,28 @@
+This a Maven project meaning that this project is using Maven as build automation
+tool. 
+
+What is Maven?
+
+1. Maven is a build automation tool used primarily for Java projects. 
+2. Maven can also be used to build and manage projects written in C#, Ruby, Scala, 
+   and other languages. 
+
+3. Maven addresses two aspects of building software: 
+   
+   A. How software is built, 
+   B. And its dependencies. 
+   
+4. Unlike earlier tools like Apache Ant, it uses conventions for the build procedure, 
+   and only exceptions need to be written down. 
+   
+5. An XML file describes the software project being built, its dependencies on other 
+   external modules and components, the build order, directories, and required plug-ins. 
+   
+6. Maven dynamically downloads Java libraries and Maven plug-ins from one or more 
+   repositories such as the Maven 2 Central Repository, and stores them in a local cache.
+   
+7. Alternative technologies like Gradle and sbt as build tools do not rely on XML, 
+   but keep the key concepts Maven introduced. 
+   
+
+Source: https://en.wikipedia.org/wiki/Apache_Maven

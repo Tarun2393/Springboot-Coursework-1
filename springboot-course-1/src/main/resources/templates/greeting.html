@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <title>Greeting</title>
+  <link rel="stylesheet" th:href="@{/css/style_greeting.css}"/>
+</head>
+<body>
+    <h3 th:text="${currentTime}"></h3>
+    <div class="container">
+        <form th:action="@{/greeting}" method="post" >
+            <label for="first">First Name:</label>
+            <input type="text" name="first"><br>
+            <label for="last">Last Name:</label>
+            <input type="text" name="last"><br>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+    <div th:if="${!#strings.isEmpty(name)}">
+         <h2 th:text="'Hello, ' + ${name} + '!'"></h2>
+    </div>
+</body>
+</html>

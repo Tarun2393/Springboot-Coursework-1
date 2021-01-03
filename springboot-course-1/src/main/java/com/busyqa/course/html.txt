@@ -1,0 +1,16 @@
+
+To learn or refresh your HTML and CSS go visit the following web sites:
+
+HTML: https://www.w3schools.com/html/
+CSS: https://www.w3schools.com/css/default.asp
+
+W3Schools.-
+
+1. Is an educational web site for learning web technologies online.
+2. Their content includes tutorials and references relating to HTML, CSS, JavaScript, 
+   JSON, PHP, Python, AngularJS, React.js, SQL, Bootstrap, C++, C# and Java.
+
+3. Created in 1998, its name is derived from the World Wide Web, but is not affiliated 
+   with the W3C (World Wide Web Consortium).
+
+
